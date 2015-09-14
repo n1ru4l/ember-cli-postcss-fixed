@@ -1,4 +1,4 @@
-# ember-cli-postcss
+# ember-cli-postcss-fixed
 
 This is a modification of https://www.npmjs.com/package/ember-cli-postcss
 
