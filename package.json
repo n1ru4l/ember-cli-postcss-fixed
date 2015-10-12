@@ -1,16 +1,8 @@
 {
   "name": "ember-cli-postcss-fixed",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Use postcss to process your css with a large selection of JavaScript plug-ins.",
   "author": "Laurin Quast <laurinquast@googlemail.com>",
-  "bugs": {
-	"url" : "https://github.com/n1ru4l/ember-cli-postcss-fixed/issues",
-	"email" : "laurinquast@googlemail.com"
-  },
-  "repository" : { 
-    "type" : "git", 
-	"url" : "https://github.com/n1ru4l/ember-cli-postcss-fixed.git"
-  },
   "license": "MIT",
   "dependencies": {
     "broccoli-merge-trees": "^0.2.3",
@@ -20,8 +12,9 @@
     "mkdirp": "^0.5.0",
     "object-assign": "^3.0.0",
     "broccoli-caching-writer": "^0.5.5",
-    "postcss": "^5.0.5",
-	"merge": "^1.2.0"
+    "postcss": "^5.0.10",
+	"merge": "^1.2.0",
+    "node-sass": "^3.3.3"
   },
   "keywords": [
     "ember-addon",
@@ -29,7 +22,8 @@
     "prefix",
     "preprocess",
     "postprocess",
-    "postcss"
+    "postcss",
+    "node-sass"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
