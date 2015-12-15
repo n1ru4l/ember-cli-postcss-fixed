@@ -1,5 +1,7 @@
 # ember-cli-postcss-fixed
 
+DEPRECATED PLEASE USE [ember-cli-css-preprocess](https://github.com/n1ru4l/ember-cli-css-preprocess)
+
 This is a modification of https://www.npmjs.com/package/ember-cli-postcss
 
 It adds functionality for multiple file processing and for preprocessing using [node-sass](https://www.npmjs.com/package/node-sass).
